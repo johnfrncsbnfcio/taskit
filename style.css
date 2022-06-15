@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Oswald:wght@200;400&family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+}
+
+/* Main Area */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+     
+}
+
+.task-btn {
+    padding: 0 10px 0 5px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+
+.task-add {
+    
+}
+
+.input-area {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.task-name:focus {
+    outline: none;
+}
+
+/* Inputs */
+.task-name {
+    border-radius: 10px 0 0 10px;
+    border: none;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
