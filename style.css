@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: green;
+    background-color: aquamarine;
 }
 
 /* Main Area */
@@ -18,13 +18,18 @@ body {
     align-items: center;
 }
 
+
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: rgb(47, 124, 124);
+}
+
 section {
      
 }
 
-main {
-    background-color: red;
-}
 
 .task-btn {
     padding: 0 10px 0 5px;
@@ -58,15 +63,44 @@ main {
 
 /* Inputs */
 .task-name {
+    font-family: 'Roboto';
+    font-weight: 300;
     border-radius: 10px 0 0 10px;
     border: none;
-    font-size: 1.3rem;
+    font-size: 1.125rem;
     padding-left: 15px;
-    color:  rgb(69, 148, 148);;
+    color:  rgb(69, 148, 148);
+}
+
+.task-name::selection {
+    background-color: rgb(69, 148, 148);
+    color: white;
 }
 
 .task-area {
+    padding: 2px;
+    width: 17rem;
     display: flex;
-    flex-direction: column;
-    background-color: yellow;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: right;
+    background-color: white;
+    border-radius: 10px;
+}
+ 
+.task-item {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: rgb(75, 114, 101);
+    padding: 2.5px 10px;
+    cursor: pointer;
+    border-bottom: 1px dotted black;
+}
+
+.task-item:hover {
+    font-size: 1.5rem;
+    padding: 1.5px 8px;
+    color: #000;
+    transition: color 400ms ease-in-out;
 }
