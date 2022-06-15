@@ -1,8 +1,8 @@
 #  Task It!
 
-![This is an image](/resources/ui.png)
+![This is an image](/resources/ui.PNG)
 
-Running demo: https://johnfrncsbnfcio.github.io/audiosite/
+Running demo: https://johnfrncsbnfcio.github.io/taskit/
 
 ## Description
 - Simple todo task monitor. Task It!
@@ -15,7 +15,7 @@ Running demo: https://johnfrncsbnfcio.github.io/audiosite/
 
 ### Note
 - task list item limit to 6 only.
-- Project still in beta and will upgrade it sooooooon or from time to time lol.
+- Project still in beta and will upgrade it sooooooon or from time to time.
 
 ## Stack | Development tools
 - HTML
@@ -25,4 +25,4 @@ Running demo: https://johnfrncsbnfcio.github.io/audiosite/
 - Vscode
 - Firefox DE
 
-This [Personal Project](https://johnfrncsbnfcio.github.io/audiosite/) site was hosted using [GitHub Pages](https://pages.github.com/).
+This [Personal Project](https://johnfrncsbnfcio.github.io/taskit/) site was hosted using [GitHub Pages](https://pages.github.com/).
