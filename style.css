@@ -22,14 +22,27 @@ section {
      
 }
 
+main {
+    background-color: red;
+}
+
 .task-btn {
     padding: 0 10px 0 5px;
     border-radius: 0 10px 10px 0;
     border: none;
+    background-color: rgb(69, 148, 148);
+    color: white;
+    cursor: pointer;
 }
 
-.task-add {
-    
+.task-btn:hover {
+    background-color: rgb(47, 124, 124);
+    color: white;
+}
+
+
+.task-add:hover {  
+    color: white;
 }
 
 .input-area {
@@ -47,6 +60,13 @@ section {
 .task-name {
     border-radius: 10px 0 0 10px;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 15px;
+    color:  rgb(69, 148, 148);;
+}
+
+.task-area {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
 }
