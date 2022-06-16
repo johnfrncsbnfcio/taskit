@@ -1,11 +1,14 @@
 #  Task It!
 
-Version 1:
+Running demo: https://johnfrncsbnfcio.github.io/taskit/
+
+
 ![This is an image](/resources/ui.PNG)
+Version 1
 
 
-Version 2:
 ![This is an image](/resources/ui-v2.PNG)
+Version 2
 
 ### v2 changes:
 - Long text font-size change
@@ -13,7 +16,7 @@ Version 2:
 - minor adjustment in hovering style
 - still in progress
 
-Running demo: https://johnfrncsbnfcio.github.io/taskit/
+
 
 ## Description
 - Simple todo task monitor. Task It!
