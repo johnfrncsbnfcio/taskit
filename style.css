@@ -78,7 +78,7 @@ section {
 }
 
 .task-area {
-    padding: 2px;
+
     width: 17rem;
     display: flex;
     flex-direction: column-reverse;
@@ -88,19 +88,21 @@ section {
     border-radius: 10px;
 }
  
-.task-item {
+.p-text {
+    border-bottom: 1px dotted black;
+    font-size: 1.4rem;
+    margin: 3px;
+
     font-family: 'Roboto';
     font-weight: 300;
-    font-size: 1.4rem;
+    
     color: rgb(75, 114, 101);
     padding: 2.5px 10px;
     cursor: pointer;
-    border-bottom: 1px dotted black;
 }
 
-.task-item:hover {
-    font-size: 1.5rem;
-    padding: 1.5px 8px;
+.p-text:hover {
+    border-bottom: 1px dotted black;
     color: #000;
     transition: color 400ms ease-in-out;
 }

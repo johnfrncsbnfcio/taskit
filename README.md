@@ -1,6 +1,17 @@
 #  Task It!
 
+Version 1:
 ![This is an image](/resources/ui.PNG)
+
+
+Version 2:
+![This is an image](/resources/ui-v2.PNG)
+
+### v2 changes:
+- Long text font-size change
+- use <p> instead of <div> in task name
+- minor adjustment in hovering style
+- still in progress
 
 Running demo: https://johnfrncsbnfcio.github.io/taskit/
 
@@ -15,7 +26,7 @@ Running demo: https://johnfrncsbnfcio.github.io/taskit/
 
 ### Note
 - task list item limit to 6 only.
-- Project still in beta and will upgrade it sooooooon or from time to time.
+- Project still in progress and will upgrade it sooooooon or from time to time.
 
 ## Stack | Development tools
 - HTML

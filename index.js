@@ -3,7 +3,7 @@ const taskArea = document.querySelector('.task-area')
 const itemEvent = document.querySelector('.task-item')
 
 // Reference starting point, max 6 task.
-var itemLimit = 1
+var itemLimit = 0
 
 // dynamic event listener
 const addGlobalEventListener = ((type, selector, callback) => {
@@ -15,7 +15,7 @@ const addGlobalEventListener = ((type, selector, callback) => {
 // Using this to avoid bubbling and capture event..
 // Thanks to Web Dev Simplified :)
 addGlobalEventListener('click', '.task-add, .task-btn', e => {
-    if(itemLimit <= 6){
+    if(itemLimit < 6){
         if (inputText.value.length == 0 || isSpace(inputText.value)) return
 
         item()
@@ -31,24 +31,31 @@ addGlobalEventListener('keyup', '.task-name', e => {
 
 // Triggered when mouse clicked twice
 // Remove task
-addGlobalEventListener('dblclick', '.task-item', e => {
+addGlobalEventListener('dblclick', '.p-text', e => {
     e.target.remove()
     itemLimit -= 1 // Decrement itemLimit
 })
 
 // Put line-through on click task name to mark as complete or ignore
-addGlobalEventListener('click', '.task-item', e => {
+addGlobalEventListener('click', '.p-text', e => {
     e.target.style.textDecoration = 'line-through'
     e.target.style.color = 'red'
 })
 
 // function to create element
 const item = () => {
-    let div = document.createElement('div')
+    let taskname = document.createElement('p')
     let taskText = document.createTextNode(inputText.value)
-    div.classList.add('task-item')
-    div.append(taskText)
-    taskArea.append(div)
+    taskname.classList.add('p-text')
+
+
+    //Change font size if task name is too long
+    if(inputText.value.length >= 11){
+        taskname.style.fontSize = 1 + 'rem'
+    }
+
+    taskname.append(taskText)
+    taskArea.append(taskname)
     inputText.value = ''
     itemLimit += 1
 }
