@@ -2,17 +2,17 @@
 
 Running demo: https://johnfrncsbnfcio.github.io/taskit/
 
-
+#### Version 1
 ![This is an image](/resources/ui.PNG)
-Version 1
 
 
+#### Version 2
 ![This is an image](/resources/ui-v2.PNG)
-Version 2
+
 
 ### v2 changes:
 - Long text font-size change
-- use <p> instead of <div> in task name
+- use 'p' tag instead of 'div' tag in task name
 - minor adjustment in hovering style
 - still in progress
 
